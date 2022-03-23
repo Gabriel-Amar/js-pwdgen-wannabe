@@ -27,7 +27,6 @@ console.log(userSur)
 let color = prompt("Inserisci un colore");
 console.log(color)
 
-let userAge = prompt("Inserisci età");
-console.log(userAge)
+let num = 21
 
-document.getElementById('password').innerHTML += ' ' + userName + userSur + color + userAge
+document.getElementById('password').innerHTML += ' ' + userName + userSur + color + num
